@@ -1,0 +1,54 @@
+﻿@model AgendaModel
+@{
+    ViewData["title"] = "Cadastrar Horário";
+}
+<div class="container by-dark p-5 rounded-5">
+
+    <div class="mb-5 text-center">
+        <h2>Cadastrar Banho</h2>
+        <p class="text-secondary">Preencha o formulário abaixo para cadastrar um novo horário.</p>
+    </div>
+
+    <form method="post" asp-controller="Agenda" asp-action="Cadastrar">
+        <div class="row g-2">
+            <div class="col-md">
+                <div class="mb-3">
+                    <label for="nomeCliente" class="form-label">Nome do Cliente</label>
+                    <input type="text" class="form-control" id="nomeCliente" asp-for="Cliente" placeholder="Digite o nome do cliente">
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="mb-3">
+                    <label for="nomeCachorro" class="form-label">Nome do(s) Cachorro(s)</label>
+                    <input type="text" class="form-control" id="nomeCachorro" asp-for="Cachorro" placeholder="Digite o nome do(s) cachorro(s)" >
+                    <span class="text-danger" asp-validation-for=" Cachorro"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row g-2">
+            <div class="col-md">
+                 <div class="mb-3">
+                    <label for="valor" class="form-label">Valor</label>
+                    <input type="text" class="form-control" id="valor" asp-for="Valor" placeholder="Valor">
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="mb-3">
+                    <label class="form-label" for="dataBanho">Data Banho</label><br>
+                    <input type="date" class="form-input" id="dataBanho" asp-for="DataBanho">
+                    <span class="text-danger" asp-validation-for="DataBanho"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="observacoes" class="form-label">Observações</label>
+            <input type="text" class="form-control" id="observacoes" asp-for="Observacoes" placeholder="Digite diretamente: Tosa/Simparic...">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Salvar</button>
+        <a class="btn btn-primary m-50" asp-controller="Agenda" asp-action="Index">Voltar</a>
+
+    </form>
+
+</div>
