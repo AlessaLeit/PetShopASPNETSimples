@@ -1,0 +1,20 @@
+# Arquivos de cache e logs do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de compila��o
+bin/
+obj/
+
+# Arquivos gerados pelo Rider
+.idea/
+
+# Arquivos gerados pelo VS Code
+.vscode/
+
+# Arquivos de sistema operacional
+*.DS_Store
+Thumbs.db
