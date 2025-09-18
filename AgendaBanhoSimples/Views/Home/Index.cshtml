@@ -1,8 +1,55 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Página Inicial";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Bem vindo!</h1>
-    <a class="btn btn-info m-150" asp-controller="Agenda" asp-action="Index">Acessar agenda</a>
+<style>
+    /* Estilos simples para centralizar e dar um bom visual */
+    .welcome-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #f8f9fa;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .welcome-container h1 {
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .welcome-container p {
+        font-size: 1.2rem;
+        color: #6c757d;
+        margin-bottom: 30px;
+    }
+
+    .action-buttons {
+        display: flex;
+        gap: 15px; /* Espaço entre os botões */
+    }
+
+    .action-buttons .btn {
+        padding: 12px 25px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        border-radius: 50px; /* Bordas arredondadas */
+        transition: transform 0.2s ease;
+    }
+
+    .action-buttons .btn:hover {
+        transform: translateY(-3px);
+    }
+</style>
+
+<div class="welcome-container">
+    <h1 class="display-4">Bem-vindo ao Sistema PetShop!</h1>
+    <p>Gerencie seus clientes e agendamentos de forma simples e rápida.</p>
+
+    <div class="action-buttons">
+        <a class="btn btn-primary" asp-controller="Agenda" asp-action="Index">📅 Ver Agenda</a>
+    </div>
 </div>
