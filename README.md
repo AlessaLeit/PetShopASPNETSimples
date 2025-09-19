@@ -6,7 +6,7 @@
 
 - Alessandra Leite
 - Lucas Ruthes
-- Marcos Zimmermman Neto
+- Marcos Zimmermann Neto
 - Victor Schiessl
  
 ## 🚀 Objetivo do Projeto
