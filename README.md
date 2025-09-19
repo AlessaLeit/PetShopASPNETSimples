@@ -1,4 +1,4 @@
-# 🐾 PetShop Manager
+# 🐾 Sistema Petshop
 
 Este projeto foi desenvolvido em **ASP.NET MVC** com foco na integração de um **ORM (Entity Framework)** para facilitar o gerenciamento de dados de um Petshop.  
 O sistema permite que o gerente registre e acompanhe informações de **clientes, cachorros, datas de atendimento, observações e valores cobrados**, oferecendo as operações básicas de **CRUD (Create, Read, Update, Delete)**.
