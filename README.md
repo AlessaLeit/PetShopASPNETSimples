@@ -68,4 +68,7 @@ Durante o desenvolvimento, aprendemos a:
 ## ▶️ Como Executar o Projeto
 1. Clone o repositório:  
    ```bash
-   git clone https://github.com/seuusuario/petshop-mvc.git
+   git clone https://github.com/AlessaLeit/PetShopASPNETSimples.git
+
+2. Altere as informações do appsettings.json para seu SQL SERVER
+   
