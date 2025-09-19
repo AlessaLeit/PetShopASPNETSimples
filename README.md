@@ -49,19 +49,19 @@ Durante o desenvolvimento, aprendemos a:
 ## 📸 Screenshots
 
 - **Home**  
-  ![Home](/images_readme/home.png)
-
-- **Tela de Cadastro**  
-  ![Cadastro](docs/images/cadastro.png)
+  ![Home](image_readme/Home.png)
 
 - **Listagem**  
-  ![Listagem](docs/images/listagem.png)
+  ![Listagem](image_readme/Visualizar.png)
+  
+- **Tela de Cadastro**  
+  ![Cadastro](image_readme/Cadastrar.png)
 
 - **Edição**  
-  ![Edicao](docs/images/edicao.png)
+  ![Edicao](image_readme/Editar.png)
 
 - **Exclusão**  
-  ![Exclusao](docs/images/exclusao.png)
+  ![Exclusao](image_readme/Excluir.png)
 
 ---
 
